@@ -23,7 +23,7 @@ const ProductAdd = ({ history }) => {
         history.push('/product/list')
       }
     } catch (error) {
-
+      console.log(error)
     }
   }
 
